@@ -112,8 +112,14 @@ main {
 }
 
 .userRight {
-    overflow: hidden;
     width: 25%;
+    text-align: right;
+    float: right;
+}
+
+.userRight > h3 {
+    position: relative;
+    width: 350%;
     text-align: right;
     float: right;
 }
@@ -129,6 +135,7 @@ main {
 }
 
 .userTab {
+    z-index: 99;
     background-color: whitesmoke;
     font-size: 1.25em;
     padding: 5%;
