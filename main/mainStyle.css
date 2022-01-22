@@ -102,6 +102,7 @@ main {
 }
 
 .userInfo {
+    background-color: whitesmoke;
     width: 20%;
     float: right;
     position: fixed;
@@ -112,7 +113,9 @@ main {
 }
 
 .userRight {
+    overflow: hidden;
     width: 25%;
+    text-align: right;
     float: right;
 }
 
