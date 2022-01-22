@@ -339,3 +339,12 @@ main {
     background-color: whitesmoke;
     color: #373483;
 }
+
+.stars > a > img {
+    width: 19%;
+    filter: grayscale(1);
+}
+
+.stars > a > img:hover {
+    cursor: pointer;
+}

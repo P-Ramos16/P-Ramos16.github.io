@@ -17,10 +17,16 @@
       <h2 class="topText">PickupPoint?</h2>
       <div class="mainPart">
         <a href="map.html"><button style="margin:10vh 0px 2.5vh;" id="btnRequest" class="mainBtn"> Selecionar Pickup Point / Locker <span style="font-size: 0.9em;" class="glyphicon glyphicon-chevron-right"></span></button></a>
+        <h4>Número de malas:</h4>
         <input type="text" id="num" onkeyup="checkData()"class="mainInput" placeholder="Número de malas">
+        <h4>Tamanho:</h4>
         <input type="text" id="size" onkeyup="checkData()" class="mainInput" placeholder="Tamanho (ex: 1 pequena e 2 grandes)">
+        <h4>Ticket:</h4>
         <input type="text" id="photo" onkeyup="checkData()" class="mainInput" placeholder="Anexar fotografia do ticket da bagagem">
-        <a id="hrefBtn" style="opacity:0.5;" onclick="sendData()"><button style="margin-top:12.5vh;" class="mainBtn">Continuar <span style="font-size: 0.9em;" class="glyphicon glyphicon-chevron-right"></span></button></a>
+        <h4>Agendar a recolha:</h4>
+        <input type="date" id="date" value="2022-01-26" min="2022-01-26" max="2022-03-31" class="mainInput">
+
+        <a id="hrefBtn" style="opacity:0.5;" onclick="sendData()"><button style="margin-top:5vh;" class="mainBtn">Continuar <span style="font-size: 0.9em;" class="glyphicon glyphicon-chevron-right"></span></button></a>
       </div>  
     </main>
 

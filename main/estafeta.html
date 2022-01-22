@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+    <title>MAS-It1</title>
+    <link rel="stylesheet" href="mainStyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+  </head>
+
+  <body onload="requestData()">
+    <main id="mainReq">
+
+      <div class="errHolder">
+        <h1 class="topText">Preencha o seguinte formulário para se increver no nosso serviço como estafeta</h1>
+        <div class="selectorDiv" style="float: left;">
+
+          <h4 class="descText">Nome</h4>
+          <div class="accInput"  onkeyup="checkData()" id="name"></div>
+
+          <h4 class="descText">Telemóvel</h4>
+          <div class="accInput"  onkeyup="checkData()" id="phone"></div>
+
+          <h4 class="descText">Email</h4>
+          <div class="accInput"  onkeyup="checkData()" id="email"></div>
+
+
+        </div>
+
+        <div class="selectorDiv" style="float: right;">
+
+          <h4 class="descText">Inclua o seu Curriculum vitae</h4>
+          <input name="error" placeholder="Anexe o curriculum aqui" class="accInput"  onkeyup="checkData()" id="curriculum">
+
+          <h4 class="descText">Quantas horas tem disponíveis por semana?</h4>
+          <select name="error" class="accInput"  onkeyup="checkData()" id="error">
+            <option value="pais">2-4</option>
+            <option value="portugal">4-8</option>
+            <option value="espanha">8+</option>
+          </select>
+
+          <h4 class="descText">Como deseja ser pago?</h4>
+          <select name="error" class="accInput"  onkeyup="checkData()" id="error">
+            <option value="pais">Mastercard</option>
+            <option value="portugal">Bitcoin</option>
+            <option value="espanha">Transferencia</option>
+          </select>
+
+        </div>
+        <a id="hrefBtn" style="opacity: 0.5;" onclick="checkData(1)"><button class="errBtn">Submeter <span style="font-size: 0.9em;" class="glyphicon glyphicon-chevron-right"></span></button></a>
+        
+      </div>
+    </main>
+
+    <script src="estafeta.js"></script>
+  </body>
+</html>

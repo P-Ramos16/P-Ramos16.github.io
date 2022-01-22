@@ -161,10 +161,12 @@ function sendData() {
     var num = document.getElementById("num").value;
     var size = document.getElementById("size").value;
     var photo = document.getElementById("photo").value;
+    var date = document.getElementById("date").value;
 
     sessionStorage.setItem("num", num);
     sessionStorage.setItem("size", size);
     sessionStorage.setItem("photo", photo);
+    sessionStorage.setItem("date", date);
   }
 
 }
@@ -187,6 +189,8 @@ function formData() {
   var w = document.getElementById("name");
   var name = sessionStorage.getItem("name");
 
+  var i = document.getElementById("date");
+  var date = sessionStorage.getItem("date");
 
   x.innerHTML = num;
 
@@ -196,6 +200,8 @@ function formData() {
 
   w.innerHTML = name;
 
+  console.log(date)
+  i.innerHTML = date;
 
 
 }
