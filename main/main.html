@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+    <title>MAS-It1</title>
+    <link rel="stylesheet" href="mainStyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+  </head>
+
+  <body onload="getUserInfo()">
+    <main id="mainAcc">
+        <h1>JetLocker</h1>
+        <h4 style="margin-top:2vh;">Um upgrade na forma de viajar</h4>
+
+        <div class="userInfo">
+            <div class="userTab d-none" id="userTab">
+              <a href="map.html">Lista de localizações</a> <br>
+              <a>Horários</a><br>
+              <a href="pedidoMap.html">Pedidos</a><br>
+              <a href="errorDamage.html">Reportar erros e danos</a><br>
+              <a>Definições</a><br>
+              <a>Ajuda</a>
+            </div>
+            <div class="userRight">
+              <img src="images/user.png" onclick="displayTab()" class="userImg">
+              <br>
+              <h3>
+                <span id="userName"></span>
+                <br>
+                <span id="userEmail"></span>
+              </h3>
+            </div>
+        </div>
+
+        <div class="mainPartTut">
+
+          <h3 class="headLine">Pontos de entrega em Aveiro</h3>
+          <div class="imageSlider">
+            <div class="slider">
+              <div class="sliding" style="background-image: url('images/slides/slide0_0.jpg');"></div>
+              <div class="sliding" style="background-image: url('images/slides/slide0_1.jpg');"></div>
+              <div class="sliding" style="background-image: url('images/slides/slide0_2.jpg');"></div>
+              <div class="sliding" style="background-image: url('images/slides/slide0_3.jpg');"></div>         
+            </div>              
+          </div>
+
+          <h3 class="headLine">Localizações mais populares desta semana</h3>
+          <div class="imageSlider">
+            <div class="slider">
+              <div class="sliding" style="background-image: url('images/slides/slide1_0.jpg');"></div>
+              <div class="sliding" style="background-image: url('images/slides/slide1_1.jpg');"></div>
+              <div class="sliding" style="background-image: url('images/slides/slide1_2.jpg');"></div>
+              <div class="sliding" style="background-image: url('images/slides/slide1_3.jpg');"></div>         
+            </div>              
+          </div>
+
+          <a class="button1" href="request.html">Recolha a minha bagagem</a>
+
+        </div>
+    </main>
+    <script src="userInfo.js"></script>
+  </body>
+</html>

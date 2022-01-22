@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+    <title>MAS-It1</title>
+    <link rel="stylesheet" href="../acc/accStyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <main id="mainAcc">
+        <h1>Sign Up</h1>
+        <h4 style="margin-top:2vh;">Para criar a sua conta, siga os passos no ecrã</h4>
+        <div class="mainPart">
+            <input style="width:49.5%; float:left;" onkeyup="checkData()" type="text" class="accInput" id="name" placeholder="Nome">
+            <input style="width:49.5%; float:right;" type="text" class="accInput" placeholder="Apelido">
+            <input type="text" class="accInput" onkeyup="checkData()" id="email" placeholder="Email">
+            <input type="password" class="accInput" placeholder="Password">
+            <select name="cars" class="accInput" id="cars">
+              <option value="pais">Pais</option>
+              <option value="portugal">Portugal</option>
+              <option value="espanha">Espanha</option>
+              <option value="franca">França</option>
+              <option value="alemanha">Alemanha</option>
+              <option value="inglaterra">Inglaterra</option>
+            </select>
+            <input type="tel" onkeyup="checkData()" id="phone" class="accInput" placeholder="Telemóvel">
+            <h5 style="margin:2vh;">
+                <input type="checkbox" onclick="checkData()" id="check" class="checkbox0" name="horns">
+                Eu aceito os <span style="color:#373483;">Termos e Condições</span>
+            </h5>
+            <button class="accBtn" style="opacity: 0.5;" id="hrefBtn">Continuar <span style="font-size: 0.9em;" class="glyphicon glyphicon-chevron-right"></span></button>
+        </div>
+    </main>
+    <script src="../acc/scripts.js"></script>
+  </body>
+</html>

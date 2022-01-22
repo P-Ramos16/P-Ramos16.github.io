@@ -1,0 +1,331 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', sans-serif!important;
+    font-weight: 700!important;
+}
+
+body {
+    background-image: url("images/bg.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+.d-none {
+    display: none;
+}
+
+.mainBtn {
+    border: 2px solid #373483;
+    width: 100%;
+    height: 5.25vh;
+    position: relative;
+    background-color: #373483;
+    font-size: 1.4em;
+    margin-top: 1vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    color: whitesmoke;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.mainBtn > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.mainBtn:hover {
+    background-color: whitesmoke;
+    color: #373483;
+}
+
+
+main {
+    position: relative;
+    left: 15vw;
+    top: 5vh;
+    width: 70vw;
+    height: 90vh;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 1vh 0px 1vh 0px;
+}
+
+.mainPart {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 3vh;
+}
+
+.mainPartTut {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 3vh;
+}
+
+.mainInput {
+    width: 100%;
+    height: 5.25vh;
+    position: relative;
+    background-color: #e6e6e6;
+    border: 2px solid #373483;
+    margin-top: 1vh;
+    color: rgb(104, 104, 104);
+    border-radius: 4px;
+    padding-left: 1vw;
+}
+
+.checkbox0 {
+    border: 2px solid #373483;
+    color:#373483;
+}
+
+.tutText {
+    float: left;
+    text-align: left;
+    width: 22.5%;
+    margin-left: 8%;
+
+}
+
+.tutText > h4, h5 {
+    font-weight: bold;
+}
+
+.headLine {
+    margin-top: 7.5vh;
+    color: #373483;
+    text-align: left;
+    font-weight: bold;
+}
+
+.userInfo {
+    width: 20%;
+    float: right;
+    position: fixed;
+    top: 7vh;
+    left: 63.5%;
+    height: 20vh;
+    
+}
+
+.userRight {
+    width: 25%;
+    float: right;
+}
+
+.userImg {
+    margin-right: 10%;
+    width: 50%;
+    float: right;
+}
+
+.userImg:hover {
+    cursor: pointer;
+}
+
+.userTab {
+    font-size: 1.25em;
+    padding: 5%;
+    border-radius: 10px;
+    width: 70%;
+    float: right;
+    border: 4px solid #373483;
+    position: absolute;
+    text-align: right!important;
+}
+
+.userTab > a {
+    color: #505050;
+    text-decoration: none!important;
+}
+
+.userTab > a:hover {
+    color: #373483;
+    cursor: pointer;
+    text-decoration: none!important;
+}
+
+.imageSlider {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 23vh;
+
+}
+
+.slider {
+    width: 92vw;
+    height: 100%;
+}
+
+.sliding {
+    margin-right: 3vw;
+    float: left;
+    background-size: 20vw 20vh;
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 20vh;
+    border: 3px solid #373483;
+}
+
+.button1 {
+    border: 3px solid #373483;
+    width: 40%;
+    height: 7.5vh;
+    padding-top: 1.25vh;
+    background-color: #373483;
+    font-size: 2em;
+    color: whitesmoke;
+    border-radius: 50px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transition: 0.5s;
+    position: fixed;
+    bottom: 5vh;
+    left: 30%;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.button1:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: #373483;
+}
+
+.topText {
+    text-align: center;
+    color: #373483;
+}
+
+.imgHolder {
+    width: 80%;
+    left: 10%;
+    height: 50%;
+    margin-top: 10%;
+    position: relative;
+
+}
+
+.errHolder {
+    width: 80%;
+    left: 10%;
+    height: 50%;
+    margin-top: 5%;
+    position: relative;
+
+}
+
+.descText {
+    margin-top: 5vh;
+}
+
+.selectorDiv {
+    width: 20vw;
+    height: 50vh;
+}
+
+.roundBtn {
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    background-color: #373483;
+    border: 15px solid #373483;
+    transition: 500ms;
+    display: block;
+    
+}
+
+.roundBtn:hover {
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    background-color: #37348300;
+    
+}
+
+.textBox0 {
+    width: 40%;
+    text-align: left;
+    float:left;
+    margin-top: 1vh;
+}
+
+.textBox1 {
+    width: 15%;
+    text-align: left;
+    float:right;
+    margin-top: 20vh;
+}
+
+.textCl > h2 {
+    color: #373483;
+    font-style: italic;
+}
+
+.textCl > h4 {
+    color: #505050;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.accInput {
+    width: 100%;
+    height: 5.25vh;
+    position: relative;
+    background-color: #e6e6e6;
+    border: 2px solid #373483;
+    margin-top: 1vh;
+    color: rgb(104, 104, 104);
+    border-radius: 4px;
+    padding-left: 1vw;
+}
+
+.textArea {
+    width: 100%;
+    height: 15.25vh;
+    position: relative;
+    background-color: #e6e6e6;
+    border: 2px solid #373483;
+    margin-top: 1vh;
+    color: rgb(104, 104, 104);
+    border-radius: 4px;
+    padding: 5%;
+    resize: none;
+}
+
+.errBtn {
+    border: 2px solid #373483;
+    width: 100%;
+    height: 5.25vh;
+    position: relative;
+    background-color: #373483;
+    font-size: 1.4em;
+    margin-top: 5vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    color: whitesmoke;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.errBtn > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.errBtn:hover {
+    background-color: whitesmoke;
+    color: #373483;
+}

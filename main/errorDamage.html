@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+    <title>MAS-It1</title>
+    <link rel="stylesheet" href="mainStyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+  </head>
+
+  <body>
+    <main>
+      <h2 class="topText">Onde pretende entregar a sua bagagem?</h2>
+      <div class="errHolder">
+        <div class="selectorDiv" style="float: left;">
+          <h1 class="topText">Reportar Erro</h1>
+
+          <h4 class="descText">Em que sistema aconteceu o erro?</h4>
+          <select name="error" class="accInput" id="error">
+            <option value="pais">Website</option>
+            <option value="portugal">Aplicação</option>
+            <option value="espanha">Locker</option>
+          </select>
+
+
+          <h4 class="descText">Que erro ocorreu?</h4>
+          <textarea class="textArea" placeholder="Descrição do erro"></textarea>
+
+          <a href="main.html"><button class="errBtn">Submeter <span style="font-size: 0.9em;" class="glyphicon glyphicon-chevron-right"></span></button></a>
+        </div>
+        <div class="selectorDiv" style="float: right;">
+          <h1 class="topText">Reportar Danos</h1>
+
+          <h4 class="descText">Inclua uma imagem pertinente</h4>
+          <input name="error" placeholder="Anexa uma imagem" class="accInput" id="error">
+
+
+          <h4 class="descText">Que danos verificou?</h4>
+          <textarea class="textArea" placeholder="Descrição dos danos"></textarea>
+
+          <a href="main.html"><button class="errBtn">Submeter <span style="font-size: 0.9em;" class="glyphicon glyphicon-chevron-right"></span></button></a>
+        </div>
+      </div>
+
+      
+    </main>
+  </body>
+</html>
