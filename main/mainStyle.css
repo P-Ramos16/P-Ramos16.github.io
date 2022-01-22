@@ -102,7 +102,6 @@ main {
 }
 
 .userInfo {
-    background-color: whitesmoke;
     width: 20%;
     float: right;
     position: fixed;
@@ -130,6 +129,7 @@ main {
 }
 
 .userTab {
+    background-color: whitesmoke;
     font-size: 1.25em;
     padding: 5%;
     border-radius: 10px;
