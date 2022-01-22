@@ -340,10 +340,6 @@ main {
     color: #373483;
 }
 
-.star {
-    width: 19%;
-    filter: grayscale(1);
-}
 
 .star:hover {
     cursor: pointer;
