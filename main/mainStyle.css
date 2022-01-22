@@ -340,11 +340,11 @@ main {
     color: #373483;
 }
 
-.stars > a > img {
+.star {
     width: 19%;
     filter: grayscale(1);
 }
 
-.stars > a > img:hover {
+.star:hover {
     cursor: pointer;
 }
