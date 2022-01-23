@@ -169,6 +169,10 @@ function sendData() {
     sessionStorage.setItem("date", date);
   }
 
+  else {
+    alert("Cuidado! Existem campos por preencher!");
+  }
+
 }
 
 
