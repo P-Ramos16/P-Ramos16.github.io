@@ -8,8 +8,12 @@ function updateData(x) {  // navbar responsiva
   var tel = document.getElementById("infoTel");
   var Oc = document.getElementById("infoOc");
   var site = document.getElementById("infoSite");
+  var mainBtn = document.getElementById("mainBtn");
 
   console.log(x);
+
+  mainBtn.setAttribute('onclick', "")
+  mainBtn.setAttribute('href', "requestForm.html")
 
   if (x == "0") {
     var x = sessionStorage.getItem("loc");
@@ -47,8 +51,10 @@ function updateData(x) {  // navbar responsiva
     name.innerHTML = "Aerodromo de Viseu"
     loc.innerHTML = "Av. Aeródromo, Viseu"
     tel.innerHTML = "+351 232 459 849"
-    Oc.innerHTML = "Ocupação: 8%"
+    Oc.innerHTML = "Ocupação: Indísponível"
     site.setAttribute('href', "https://en.wikipedia.org/wiki/Viseu_Airport")
+    mainBtn.setAttribute('href', "")
+    mainBtn.setAttribute('onclick', "noAvailable()")
   }
 
   else if (x === "aePombal") {
@@ -208,4 +214,9 @@ function formData() {
   i.innerHTML = date;
 
 
+}
+
+function noAvailable() {
+  alert("Localização temporáriamente indisponível!");
+  return false;
 }
